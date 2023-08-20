@@ -6,8 +6,8 @@ const Wave = () => {
         <svg viewBox="0 0 500 200">
             <defs>
                 <linearGradient id="myGradient" gradientTransform="rotate(80)">
-                    <stop offset="5%" stop-color="blue" />
-                    <stop offset="95%" stop-color="#702CC8" />
+                    <stop offset="5%" stopColor='blue' />
+                    <stop offset="95%" stopColor='#702CC8' />
                 </linearGradient>
             </defs>
             <path d="M 0,100 C 150,200 350,0 500,100 L 500,00 L 0,0" fill="url(#myGradient)"></path>

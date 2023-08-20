@@ -6,7 +6,6 @@ import Grid from '@mui/material/Grid';
 
 const LandingPage = () => {
     const {users} = useAPI();
-    console.log(users);
     return (
         <Grid>
             <div className='landingPage'>

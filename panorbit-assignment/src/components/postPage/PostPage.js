@@ -1,5 +1,6 @@
 import React from 'react'
 import { Divider } from '@mui/material'
+import './PostPage.css'
 const PostPage = () => {
   return (
     <div className='content'>

@@ -6,7 +6,6 @@ import Header from '../../header/Header';
 import { useAPI } from '../../context/UserContext';
 const HomePage = (props) => {
   const { authUser } = useAPI()
-  console.log(authUser)
   // let location = useLocation();
   // const user = location.state;
   return (

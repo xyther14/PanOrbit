@@ -3,13 +3,10 @@ import './ProfilePage.css'
 import { useAPI } from '../../context/UserContext';
 import { Divider } from '@mui/material';
 import { Map, Marker, ZoomControl } from "pigeon-maps";
-import Header from '../../header/Header';
 const ProfilePage = () => {
   const { authUser } = useAPI()
-  console.log(authUser)
   return (
     <div className='content'>
-      {/* <Header props={authUser}/> */}
       <Divider sx={{marginLeft: "40px", marginRight:"20px", maxWidth:"80%"}}/>
       <div className="profile-container">
         <div className="profile detail">
@@ -26,7 +23,7 @@ const ProfilePage = () => {
           <p><span className='label'>bs :</span> {authUser.company.catchPhrase}</p>
         </div>
         <Divider sx={{margin:"20px"}} orientation="vertical" flexItem />
-        <div class="profile address">
+        <div className="profile address">
           <p><span className='label'>Address :</span></p>
           <div className='address-section'>
             <p><span className='label'>Street : </span>{authUser.address.street}</p>

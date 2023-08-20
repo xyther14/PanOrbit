@@ -1,12 +1,12 @@
 .sidebar {
-    margin: 0;
+    margin: 10px;
     padding: 0;
     display: flex;
     width: 200px;
     background: rgb(60,88,200);
     background: linear-gradient(180deg, rgba(60,88,200,1) 84%, rgba(56,49,176,1) 100%, rgba(0,212,255,1) 100%);
     position: fixed;
-    height: 100%;
+    height: calc(100% - 28px);
     overflow: auto;
     border-radius: 18px;
     align-items: center;
