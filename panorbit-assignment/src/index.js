@@ -17,6 +17,8 @@ root.render(
           <Route element={<HomePage/>}>
             <Route index element={<ProfilePage/>} />
             <Route path="/posts" element={<PostPage/>} />
+            <Route path="/gallery" element={<PostPage/>} />
+            <Route path="/todo" element={<PostPage/>} />
           </Route>
           <Route path="/landing" element={
         <div className="App">

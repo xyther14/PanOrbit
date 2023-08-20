@@ -15,12 +15,12 @@ const SideBar = () => {
                 <ListItemText sx={{color:"white"}}>Posts</ListItemText>
             </ListItem>
             <Divider sx={{ bgcolor: "white", marginLeft:"10px", minWidth: "150px" }}/>
-            <ListItem>
-                <ListItemText>Gallery</ListItemText>
+            <ListItem component={Link} to={"/gallery"}>
+                <ListItemText sx={{color:"white"}}>Gallery</ListItemText>
             </ListItem>
             <Divider sx={{ bgcolor: "white", marginLeft:"10px", minWidth: "150px" }}/>
-            <ListItem>
-                <ListItemText>ToDo</ListItemText>
+            <ListItem component={Link} to={"/todo"}>
+                <ListItemText sx={{color:"white"}}>ToDo</ListItemText>
             </ListItem>
             </div>
           
