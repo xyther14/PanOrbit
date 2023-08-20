@@ -3,6 +3,7 @@ import './ChatBox.css'
 import ChatBubbleOutlineIcon from '@mui/icons-material/ChatBubbleOutline';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import CircleIcon from '@mui/icons-material/Circle';
 import { List, ListItem, Divider } from '@mui/material';
 const ChatBox = (props) => {
     console.log(props)
@@ -23,7 +24,7 @@ const ChatBox = (props) => {
                 <KeyboardArrowUpIcon sx={{display : !open ? 'block' : 'none'}}/>
                 <KeyboardArrowDownIcon sx={{display : !open ? 'none' : 'block'}}/>
             </div>
-            <div className="chat-popup" style={{ display: open ? 'block' : 'none', bottom: open ? '40px': '0' }}>
+            <div className="chat-popup" style={{ display: open ? 'block' : 'none', bottom: open ? '20px' : '0'}}>
             <List style={{ maxHeight: '400px', overflow: 'auto' }}>
             {otherUsers?.length > 0 && otherUsers.map((user) => {
                     return <div className='list-item' key={user.id}>
@@ -31,6 +32,7 @@ const ChatBox = (props) => {
                             <div className='list-item-content'>
                                 <img className='profile-picture' src={user.profilepicture} alt='profile-pic' />
                                 {user.name}
+                                <CircleIcon sx={{color: "green", width:"12px", marginLeft:"8px", height:"12px"}}/>
                             </div>
                         </ListItem>
                         <Divider />
