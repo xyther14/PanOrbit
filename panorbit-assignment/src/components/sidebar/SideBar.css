@@ -1,0 +1,18 @@
+.sidebar {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 200px;
+    background: rgb(60,88,200);
+    background: linear-gradient(180deg, rgba(60,88,200,1) 84%, rgba(56,49,176,1) 100%, rgba(0,212,255,1) 100%);
+    position: fixed;
+    height: calc(100% - 30px);
+    overflow: auto;
+    border-radius: 18px;
+    align-items: center;
+}
+
+.sidebar-items {
+    margin: 12px;
+    color: white;
+}

@@ -1,0 +1,28 @@
+.card-title {
+    background-color: #F6F6F6;
+    border-radius: 10px 10px 0 0;
+    padding: 18px;
+}
+
+.list-item {
+    margin: 0px 10px 0px 10px;
+}
+
+a {
+    color: black;
+  }
+
+.list-item:hover {
+    cursor: pointer;
+}
+
+.list-item-content {
+    display: flex;
+}
+
+.profile-picture {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%; 
+    margin-right: 18px;
+}

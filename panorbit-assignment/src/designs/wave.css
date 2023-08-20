@@ -1,0 +1,9 @@
+.svg-container {
+    position: relative;
+  text-align: center;
+  overflow: hidden;
+   }
+
+   svg {
+    max-width: 100%
+   }
