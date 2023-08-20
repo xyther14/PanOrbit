@@ -33,9 +33,9 @@ const Header = (props) => {
     }
     return (
         <>
-            <div className='header' onClick={handleOpen}>
+            <div className='header'>
                 <h3>{title}</h3>
-                <div className='header-profile'>
+                <div className='header-profile' onClick={handleOpen}>
                     <img className='profile-picture-header' src={props.props.profilepicture} alt='profile-pic' />
                     <span>{props.props.name}</span>
                 </div>
