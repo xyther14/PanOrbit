@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React from 'react'
 import './UserList.css';
 import Card from '@mui/material/Card';
 import {List, ListItem, Divider } from '@mui/material';

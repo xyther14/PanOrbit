@@ -8,11 +8,11 @@ const SideBar = () => {
         <List>
           <div className='sidebar-items'>
             <ListItem component={Link} to={"/"}> 
-                <ListItemText>Profile</ListItemText>
+                <ListItemText sx={{color:"white"}}>Profile</ListItemText>
             </ListItem>
             <Divider sx={{ bgcolor: "white", marginLeft:"10px", minWidth: "150px" }}/>
             <ListItem component={Link} to={"/posts"}>
-                <ListItemText>Posts</ListItemText>
+                <ListItemText sx={{color:"white"}}>Posts</ListItemText>
             </ListItem>
             <Divider sx={{ bgcolor: "white", marginLeft:"10px", minWidth: "150px" }}/>
             <ListItem>

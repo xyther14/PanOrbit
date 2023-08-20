@@ -1,9 +1,12 @@
 import React from 'react'
-import { useOutletContext } from 'react-router-dom';
 
-const PostPage = (props) => {
+const PostPage = () => {
   return (
-    <div>PostPage</div>
+    <div className='content'>
+        <div className='coming-soon-container'>
+            <h1>Coming Soon</h1>
+        </div>
+    </div>
   )
 }
 

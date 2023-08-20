@@ -1,12 +1,17 @@
 import React from 'react'
 import './HomePage.css'
-import { useLocation, Outlet } from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
 import SideBar from '../sidebar/SideBar';
+import Header from '../../header/Header';
+import { useAPI } from '../../context/UserContext';
 const HomePage = (props) => {
+  const { authUser } = useAPI()
+  console.log(authUser)
   // let location = useLocation();
   // const user = location.state;
   return (
     <div className='home-page'>
+      <Header props={authUser}/>
       <SideBar/>
       <Outlet />
     </div>
