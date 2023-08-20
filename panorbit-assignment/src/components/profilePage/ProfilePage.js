@@ -23,7 +23,7 @@ const ProfilePage = (props) => {
         </div>
         <div class="profile address">
           <h2>Column 2</h2>
-          <p>Some text..</p>
+          <p>Some text.sfa.</p>
         </div>
       </div>
     </div>
