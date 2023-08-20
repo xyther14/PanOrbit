@@ -8,3 +8,6 @@ Steps to run:
 4. After dependencies have been installed, run "npm start" to run the project in local server.
 
 By default the project will run with the route localhost:[portnumber]/landing 
+
+Screenshots:
+![Screenshot (18)](https://github.com/xyther14/PanOrbit/assets/69085818/f329463b-cf11-4f3a-99dd-be8a33152d2a)
